@@ -7,6 +7,7 @@ namespace FinancePerDICK.Controllers
     {
         public IActionResult Index()
         {
+            
             return View();
         }
     }

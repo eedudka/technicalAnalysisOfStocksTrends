@@ -7,7 +7,7 @@ namespace FinancePerDICK.HttpRequest.Abstraction
         public string UrlAdress { get; }
 
         Task<float[]> CreateData();
-        Task<bool> ConnectAsync(string UrlAdress);
+        public Task<bool> ConnectAsync(string UrlAdress);
 
     }
 }
