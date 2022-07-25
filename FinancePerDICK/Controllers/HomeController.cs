@@ -7,10 +7,6 @@ namespace FinancePerDICK.Controllers
     {
         public IActionResult Index()
         {
-            var yHoo = new YahooFinanceHttp("https://finance.yahoo.com/quote/YNDX.ME/")
-                           .CreateData()
-                           .Result;
-
             return View();
         }
     }
